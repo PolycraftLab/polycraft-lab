@@ -1,2 +1,1 @@
-# polycraft-lab
-where all starts
+# Polycraft Lab page
