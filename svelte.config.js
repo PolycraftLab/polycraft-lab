@@ -2,9 +2,9 @@ import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-auto';
 
 const config = {
-	kit: { adapter: adapter() },
+	extensions: ['.svelte', '.svx'],
 	preprocess: [mdsvex()],
-	extensions: ['.svelte', '.svx']
+	kit: { adapter: adapter() }
 };
 
 export default config;
