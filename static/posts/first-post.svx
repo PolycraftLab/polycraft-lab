@@ -1,0 +1,21 @@
+---
+title: First post
+description: My first post about whatever
+draft: true
+readingTime: 2
+wordCount: 820
+date: 2025-06-05
+category: general
+image: ""
+image_alt: ""
+featured: true
+slug: first-post
+tags: []
+author: Evgeniy Nekrasov
+keywords: [svelte, ssr]
+---
+
+## Andrey Petrovich Ershov
+
+Lorem is currently extended with the following plugins.
+Instructions on how to use them in your application are linked below.
