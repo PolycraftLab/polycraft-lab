@@ -1,5 +1,5 @@
 <script>
-	export let data;
+	const { data } = $props();
 </script>
 
 <h1>Bienvenido al blog</h1>
@@ -11,3 +11,9 @@
 		<div>{@html post.html}</div>
 	</article>
 {/each}
+
+<style>
+	article {
+		width: 80ch;
+	}
+</style>
