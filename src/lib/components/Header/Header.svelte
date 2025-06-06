@@ -7,7 +7,11 @@
 	<nav>
 		<ul role="list">
 			<li role="list">
-				<a id="home-link" href="/">Polycraft Lab</a>
+				<div class="links-wrapper">
+					<a class="link" href="/">Polycraft Lab,</a>
+					<a class="link" href="/about">About,</a>
+					<a class="link" href="/blog">Blog</a>
+				</div>
 			</li>
 			<li role="list">
 				<input
@@ -45,12 +49,22 @@
 		padding: 0;
 	}
 
-	#home-link {
+	.links-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+
+	.link {
 		text-decoration: none;
 		color: black;
 		font-size: 1.4rem;
-		font-weight: bold;
 	}
+
+	.link:hover {
+		color: rgb(101, 101, 101);
+	}
+
 	input {
 		width: 200px;
 		padding: 8px 12px;
