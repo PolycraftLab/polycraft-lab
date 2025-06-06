@@ -14,3 +14,9 @@ h4 {
 	font-family: 'Outfit', sans-serif;
 	font-optical-sizing: auto;
 }
+
+:root {
+	--primary: #ee9f00;
+	--text: #000;
+	--background: #fff;
+}
