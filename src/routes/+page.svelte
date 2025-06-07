@@ -8,12 +8,13 @@
 {#each data.posts as post}
 	<article>
 		<h1>{post.title}</h1>
-		<div>{@html post.html}</div>
+		<p>{post.description}</p>
+		<p>{post.date}</p>
 	</article>
 {/each}
 
 <style>
 	article {
-		width: 80ch;
+		max-width: 80ch;
 	}
 </style>

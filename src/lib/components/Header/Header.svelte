@@ -16,7 +16,7 @@
 			<li role="list">
 				<input
 					bind:value={searchValue}
-					class:grow={isFocused}
+					class:grow={isFocused || searchValue !== ''}
 					onclick={() => (isFocused = true)}
 					onblur={() => (isFocused = false)}
 					type="text"
